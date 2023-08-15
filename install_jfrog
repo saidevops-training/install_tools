@@ -1,1 +1,9 @@
 # https://jfrog.com/help/r/jfrog-installation-setup-documentation/installing-artifactory
+
+    1  mkdir jfrog
+    2  cd jfrog/
+    3  export JFROG_HOME=/root/jfrog
+    4  mv jfrog-artifactory-oss-7.63.12-linux.tar.gz jfrog
+    5  tar -xvf jfrog-artifactory-oss-7.63.12-linux.tar.gz
+    6  mv artifactory-oss-7.63.12 artifactory
+    7  $JFROG_HOME/artifactory/app/bin/artifactoryctl
